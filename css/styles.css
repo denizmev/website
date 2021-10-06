@@ -10348,4 +10348,14 @@ header.masthead h1 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
+.btn-light-outline{
+  margin-top: 2px;
+  border: 2px solid #6d9dc5;
+}
+
+.btn-light-outline:hover{
+  border: 2px solid #498abf;
+}
+
 }
