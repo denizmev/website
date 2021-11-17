@@ -10300,7 +10300,6 @@ header.masthead h1 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
   margin: auto 2rem 2rem;
 }
 
@@ -10356,6 +10355,16 @@ header.masthead h1 {
 
 .btn-light-outline:hover{
   border: 2px solid #498abf;
+}
+
+.btn-round {
+  font-size: 18pt;
+  border-radius: 90px;
+  color:#6d9dc5;
+}
+
+.btn-round:hover {
+  color:#498abf;
 }
 
 }

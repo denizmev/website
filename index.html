@@ -9,7 +9,7 @@
         <title>Deniz Mevlevioglu PhD Researcher</title>
         <link rel="shortcut icon" href="img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
@@ -71,8 +71,14 @@
           <div class="text-center col-sm-4 mb-5 ml-auto">
               <img class="img-fluid" src="img/me.png" alt="Smiling young academician with short brown hair">
 
-              <a class="btn btn-xl btn-light-outline" href="files/CV.pdf" download="CV_DenizMevlevioglu">
-                  <i class="fas fa-download mr-2"></i>
+              <a class="btn btn-round btn-light-outline" href="mailto:d.mevlevioglu@cs.ucc.ie">
+                  <i class="fa fa-at"></i>
+              </a>
+              <a class="btn btn-round btn-light-outline" href="https://twitter.com/DMevlevioglu" target="_blank">
+                  <i class="fa fa-twitter"></i>
+              </a>
+              <a class="btn btn-round btn-light-outline" href="files/CV.pdf" download="CV_DenizMevlevioglu">
+                  <i class="fa fa-download"></i>
                   CV
               </a>
           </div>
@@ -270,7 +276,6 @@
                       <h3> 2019 - Present </h3>
               </div>
             </li>
-
             <li>
               <div class="content">
                   <h3>Web Developer</h3>
@@ -345,7 +350,7 @@
 
     <!-- Portfolio Section -->
     <section class="page-section portfolio" id="portfolio">
-        <div class="container text-success">
+        <div class="container text-light">
 
       <!-- Portfolio Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
@@ -353,7 +358,22 @@
 
 
       <div class="row no-gutters">
-        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal1">
+
+        <!-- Item 1 -->
+
+        <div class="col-lg-6 portfolio-item text-success" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">EVRST</div>
+                <p class="mb-0">Emotional Virtual Reality Stroop Task.</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/vrstthumb.jpg" alt="VR scene with a screen and platform">
+        </div>
+
+        <!-- Item 2 -->
+
+        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal2">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Visual Heights VR</div>
@@ -362,7 +382,10 @@
             </div>
             <img class="img-fluid" src="img/portfolio/VRthumb.png" alt="Virtual Reality scene of an elevator">
         </div>
-        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal2">
+
+        <!-- Item 3 -->
+
+        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal3">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">ooOoOo</div>
@@ -371,7 +394,9 @@
             </div>
             <img class="img-fluid" src="img/portfolio/ooOoOo_thumb.png" alt="A top-down shooter with cute animals">
         </div>
-        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal3">
+
+        <!-- Item 4 -->
+        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal4">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Wendy Moore Art</div>
@@ -398,7 +423,7 @@
       </div>
   </section>
 
-    <!-- Portfolio Modals -->
+  <!-- Portfolio Modals -->
 
   <!-- Portfolio Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
@@ -406,7 +431,43 @@
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">
-            <i class="fas fa-times"></i>
+            <i class="fa fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Emotional Virtual Reality Stroop Task</h2>
+                <!-- Icon Divider -->
+                <hr class="divider my-4" />
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/vrst.jpg" alt="VR scene with a screen and platform">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">An emotional Virtual Reality variant of the well-established cognitive test Stroop Colour-Word Task.</p>
+                <p>Technologies used:</p>
+                <p>Unity with C# scripting</p>
+                <p>Shimmer GSR, Myndplay Brainband</p>
+                <p>GIMP, Audacity</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fa fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fa fa-times"></i>
           </span>
         </button>
         <div class="modal-body text-center">
@@ -431,7 +492,7 @@
           <p>Shimmer GSR, Myndplay Brainband</p>
           <p>Reaper</p>
                 <button class="btn btn-primary" href="" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
+                  <i class="fa fa-times fa-fw"></i>
                   Close Window
                 </button>
               </div>
@@ -442,13 +503,13 @@
     </div>
   </div>
 
-    <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">
-            <i class="fas fa-times"></i>
+            <i class="fa fa-times"></i>
           </span>
         </button>
         <div class="modal-body text-center">
@@ -467,7 +528,7 @@
           <p>Unity with C# scripting</p>
           <p>GIMP, Audacity</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
+                  <i class="fa fa-times fa-fw"></i>
                   Close Window
                 </button>
               </div>
@@ -478,13 +539,13 @@
     </div>
   </div>
 
-    <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">
-            <i class="fas fa-times"></i>
+            <i class="fa fa-times"></i>
           </span>
         </button>
         <div class="modal-body text-center">
@@ -507,7 +568,7 @@
           <p>PHP, SMTP</p>
           <p><a href="https://wendymooreart.com" target="_blank">Visit Here</a></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
+                  <i class="fa fa-times fa-fw"></i>
                   Close Window
                 </button>
               </div>
