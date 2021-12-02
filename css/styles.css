@@ -10369,4 +10369,7 @@ header.masthead h1 {
   color:#498abf;
 }
 
+.profile-img {
+  border-radius: 250px;
+}
 }
