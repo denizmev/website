@@ -10203,9 +10203,9 @@ header.masthead h1 {
 {
   content:"\2022";
   color: rgba(254, 215, 102, 1);
-  font-weight: bold; 
+  font-weight: bold;
   display: inline-block; /
-  width: 3em; 
+  width: 3em;
   position:initial;
   height:initial;
   top:initial;
@@ -10303,6 +10303,7 @@ header.masthead h1 {
 
 .portfolio-item .caption .caption-content {
   margin: auto 2rem 2rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -10369,4 +10370,7 @@ header.masthead h1 {
   color:#498abf;
 }
 
+.profile-img {
+  border-radius: 250px;
+}
 }
