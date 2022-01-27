@@ -573,6 +573,12 @@ pre code {
     max-width: 1140px;
   }
 }
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -10177,7 +10183,7 @@ header.masthead h1 {
 .content{
   padding-bottom:20px;
 }
-.timeline .content ul li{
+.timeline .content .innerlist li{
   list-style:none;
   position:initial;
   width:initial;
@@ -10257,6 +10263,9 @@ header.masthead h1 {
   .timeline:before{
     left:20px;
     height:100%;
+  }
+  .timeline ul li .content {
+  	padding-top: 30px;
   }
   .timeline ul li:nth-child(odd),
   .timeline ul li:nth-child(even)
@@ -10373,4 +10382,6 @@ header.masthead h1 {
 .profile-img {
   border-radius: 250px;
 }
+
+
 }
