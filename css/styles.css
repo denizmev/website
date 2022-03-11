@@ -4046,8 +4046,10 @@ input[type=button].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+} 
 }
 @media (min-width: 576px) {
+
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -10324,6 +10326,25 @@ header.masthead h1 {
   font-weight: 300;
   font-size: 1.2rem;
 }
+.pub-type {
+  color: #25283d;
+  border-radius: 20px;
+  background-color: #fed766aa;
+  border: 2px solid #fed766;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.pub-title {
+  color: #25283d;
+  font-weight: 900;
+}
+
+#pub-table p {
+  margin: 5px 20px;
+} 
+}
 
 @media (min-width: 992px) {
   .portfolio-item {
@@ -10383,5 +10404,23 @@ header.masthead h1 {
   border-radius: 250px;
 }
 
+.pub-type {
+  color: #25283d;
+  border-radius: 20px;
+  background-color: #fed766aa;
+  border: 2px solid #fed766;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 900;
+}
+
+.pub-title {
+  color: #25283d;
+  font-weight: 900;
+}
+
+#pub-table p {
+  margin: 5px 20px;
+} 
 
 }
