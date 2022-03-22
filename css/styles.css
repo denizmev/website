@@ -1984,6 +1984,7 @@ video {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
@@ -4047,7 +4048,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 } 
-}
+
 @media (min-width: 576px) {
 
   .navbar-expand-sm {
@@ -7914,6 +7915,7 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
+
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
@@ -10346,7 +10348,6 @@ header.masthead h1 {
   margin: 0px;
   padding: 2px 5px;
 } 
-}
 
 @media (min-width: 992px) {
   .portfolio-item {
@@ -10414,6 +10415,17 @@ header.masthead h1 {
   display: inline-block;
   padding: 5px;
   font-weight: 900;
+}
+
+#pub-table p.review {
+  color: #25283d;
+  border-radius: 20px;
+  background-color: #6d9dc566;
+  border: 2px solid #6d9dc533;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 900;
+  margin-left: 10px;
 }
 
 .pub-title {
