@@ -10327,26 +10327,6 @@ header.masthead h1 {
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
-}
-#pub-table p.pub-type {
-  color: #25283d;
-  border-radius: 20px;
-  background-color: #fed766aa;
-  border: 2px solid #fed766;
-  display: inline-block;
-  padding: 5px;
-  font-weight: 900;
-  padding: 5px;
-}
-
-.pub-title {
-  color: #25283d;
-  font-weight: 900;
-}
-
-#pub-table p {
-  margin: 0px;
-  padding: 2px 5px;
 } 
 
 @media (min-width: 992px) {
@@ -10406,12 +10386,13 @@ header.masthead h1 {
 .profile-img {
   border-radius: 250px;
 }
+}
 
 #pub-table p.pub-type {
   color: #25283d;
   border-radius: 20px;
-  background-color: #fed766aa;
-  border: 2px solid #fed766;
+  background-color: #fed76655;
+  border: 2px solid #fed76677;
   display: inline-block;
   padding: 5px;
   font-weight: 900;
@@ -10420,8 +10401,8 @@ header.masthead h1 {
 #pub-table p.review {
   color: #25283d;
   border-radius: 20px;
-  background-color: #6d9dc566;
-  border: 2px solid #6d9dc533;
+  background-color: #6d9dc555;
+  border: 2px solid #6d9dc560;
   display: inline-block;
   padding: 5px;
   font-weight: 900;
@@ -10437,5 +10418,3 @@ header.masthead h1 {
   margin: 0px;
   padding: 2px 5px;
 } 
-
-}
