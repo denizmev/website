@@ -10315,6 +10315,7 @@ header.masthead h1 {
 }
 
 .portfolio-item .caption .caption-content {
+display:none;
   margin: auto 2rem 2rem;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -10363,6 +10364,10 @@ header.masthead h1 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+  .portfolio-item:hover .caption-content {
+  	display: block;
+  }
+
 
 .btn-light-outline{
   margin-top: 2px;

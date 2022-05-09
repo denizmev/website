@@ -83,7 +83,7 @@
               <p class="lead">
                    Hello, I'm Deniz. I'm a Computer Science PhD researcher at University College Cork. I am currently researching real-time anxiety prediction in Virtual Reality Exposure Therapy. I have a BA in Psychology and an MSc in Interactive Media (Computer Science). My research interests include on-body physiological sensors, machine learning and Virtual Reality. I am also experienced in lab demonstrating and tutoring for varying topics in Computer Science such as Web Development, Authoring and 3D Modelling.
               </p>
-              <p class="lead"> If you would like to work with me or learn more about my research, feel free to send me an email.</a>
+              <p class="lead"> If you would like to work with me or learn more about my research, feel free to <a href="mailto:d.mevlevioglu@cs.ucc.ie">send me an email.</a>
               </p>
           </div>
       </div>
@@ -115,8 +115,18 @@
         	<tr><td><p class="pub-type">Journal Paper</p><p class="review">Under Review</p>
           	<p class="pub-title"> Systematic review on anxiety classification in Virtual Reality using biosensors. </p>
           	<p>Deniz Mevlevioğlu, Sabin Tabirca, and David Murphy. 2022. </p>
-          	<p> International Journal of Virtual Reality, 22(1).</p> 
+          	<p> Journal of Virtual Reality and Broadcasting, 16(2019), no. 2.</p> 
           </td></tr>
+          <tr><td><p class="pub-type">WiP Paper</p>
+          	<p class="pub-title"> Emotional Virtual Reality Stroop Task: an Immersive Cognitive Test </p>
+          	<p>Deniz Mevlevioğlu, David Murphy, and Sabin Tabirca. 2022.</p>  
+          	<p>In Proceedings of the ACM International Conference on Interactive Media Experiences (IMX '22). </p>  
+          	<p>DOI: <a href="https://doi.org/10.1145/3505284.3532988" target="_blank"> 10.1145/3505284.3532988 </a></p></td></tr>
+          <tr><td><p class="pub-type">Extended Abstract</p>
+          	<p class="pub-title"> Real-time Anxiety Prediction in Virtual Reality Therapy. </p>
+          	<p>Deniz Mevlevioğlu, David Murphy, and Sabin Tabirca. 2021.</p> 
+          	<p>Proceedings of the 12th ACM Multimedia Systems Conference (MMSys '22). </p>
+          	<p>DOI: <a href="https://doi.org/10.1145/3524273.3533926" target="_blank">10.1145/3524273.3533926</a></p></td></tr>
           <tr><td><p class="pub-type">Extended Abstract</p>
           	<p class="pub-title"> Emotional Virtual Reality Stroop Task: Pilot Design. </p>
           	<p>Deniz Mevlevioğlu, Sabin Tabirca, and David Murphy. 2021. </p>
@@ -424,7 +434,7 @@ VR4Rehab hackathon by Interreg.</td>
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">EVRST</div>
-                <p class="mb-0">Emotional Virtual Reality Stroop Task.</p>
+                <p class="mb-0">Emotional Virtual Reality Stroop Task for assessing anxiety levels.</p>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/vrstthumb.jpg" alt="VR scene with a screen and platform">
@@ -443,8 +453,18 @@ VR4Rehab hackathon by Interreg.</td>
         </div>
 
         <!-- Item 3 -->
-
         <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Discord chatbots</div>
+                <p class="mb-0">Intelligent chatbots using GPT-3 and GPT-J pretrained language models.</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/botsthumb.jpg" alt="Discord logo and two bots, top one named Llan and the bottom one Deniz">
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal4">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">ooOoOo</div>
@@ -453,19 +473,9 @@ VR4Rehab hackathon by Interreg.</td>
             </div>
             <img class="img-fluid" src="img/portfolio/ooOoOo_thumb.png" alt="A top-down shooter with cute animals">
         </div>
-
-        <!-- Item 4 -->
-        <div class="col-lg-6 portfolio-item" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Wendy Moore Art</div>
-                <p class="mb-0">A beautiful and calming e-commerce and portfolio website for the Irish artist Wendy Moore.</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/landingpage.jpg" alt="Art Website Landing Page">
-        </div>
       </div>
     </div>
+
   </section>
 
 
@@ -576,6 +586,45 @@ VR4Rehab hackathon by Interreg.</td>
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Discord Chatbots</h2>
+                <!-- Icon Divider -->
+                <hr class="divider my-4" />
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/bots.jpg" alt="Conversations on discord, two columns, left GPT-3 and right GPT-J">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Two separate chatbots that are capable of processing text and responding in a meaningful way.</p>
+                	<p>First one, "Llan" is programmed using discord.js library and GPT-3 API. It is good at answering general questions and creative tasks such as making ASCII art and writing poems. However, it does not remember conversations due to the price of GPT-3 API.</p>
+                	<p>The second one, "Denizbot" is programmed using pycord library and GPT-J pretrained models. It is fine-tuned using LORA to speak similar to its creator, me. Although its capabilities of creativity and speech parsing is limited compared to Llan, it has more personality thanks to fine-tuning and can remember recent conversation.</p>
+		        <p>Technologies used:</p>
+		        <p>JavaScript, Python</p>
+		        <p>node.js, discord.js, Pycord </p>
+		        <p>GPT-3, GPTJ</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fa fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fa fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ooOoOo</h2>
                 <!-- Icon Divider -->
                 <hr class="divider my-4" />
@@ -598,8 +647,8 @@ VR4Rehab hackathon by Interreg.</td>
     </div>
   </div>
 
-    <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
