@@ -10423,3 +10423,7 @@ display:none;
   margin: 0px;
   padding: 2px 5px;
 } 
+
+.vertical-centre {
+    margin: auto;
+}
